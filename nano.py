@@ -3,7 +3,7 @@ import telebot
 import time
 
 bot = telebot.TeleBot("5951597049:AAE6e0lHOzahxsAED1RgrNs7051C2ystZs8")  # токен бота
-# user_id = 0 #id вашего аккаунта
+user_id = 5933671916 #id вашего аккаунта
 @bot.message_handler(content_types=["text"])
 def main(message):
    if (user_id == message.chat.id): #проверяем, что пишет именно владелец
