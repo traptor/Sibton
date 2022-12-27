@@ -1,8 +1,9 @@
 import telebot
 from telebot import types
+import time
 
-# You can set parse_mode by default. HTML or MARKDOWN
-bot = telebot.TeleBot('5951597049:AAE6e0lHOzahxsAED1RgrNs7051C2ystZs8')
+bot = telebot.TeleBot(
+    "5977162947:AAG-Lb_I33VH3V_nbQZpG5fAjZ3SUe68U7g")  # токен бота
 
 # buttons Inline
 ''' @bot.message_handler(commands=['start'])
@@ -29,7 +30,6 @@ def start(message):
 
 @bot.message_handler(commands=['start'])
 def start(message):
-
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("👋 Поздороваться")
     markup.add(btn1)
@@ -38,7 +38,6 @@ def start(message):
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
-
     if message.text == '👋 Поздороваться':
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True) #создание новых кнопок
         btn1 = types.KeyboardButton('Как стать автором на Хабре?')
@@ -46,4 +45,10 @@ def get_text_messages(message):
         btn3 = types.KeyboardButton('Советы по оформлению публикации')
         markup.add(btn1, btn2, btn3)
         bot.send_message(message.from_user.id, '❓ Задайте интересующий вопрос', reply_markup=markup) #ответ бота
-        
+
+if __name__ == '__main__':
+    while True:
+        try:#добавляем try для бесперебойной работы
+            bot.polling(none_stop=True)#запуск бота
+        except:
+            time.sleep(10)#в случае падения       
