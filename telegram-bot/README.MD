@@ -1,0 +1,1 @@
+https://ton.org/docs/develop/dapps/tutorials/accept-payments-in-a-telegram-bot
