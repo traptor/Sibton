@@ -3,7 +3,7 @@ from telebot import types
 import time
 
 # telegram bot token
-API_BOT_TOKEN = '5977162947: AAGo1MyVIQZyFWEctKU0zvCr5yCf3KTdoiA'
+API_BOT_TOKEN = '5977162947:AAGo1MyVIQZyFWEctKU0zvCr5yCf3KTdoiA'
 
 TON_ADDRESS = 'EQCz7yI0FdoCH0BT2Hp7m8pUTsfuGEWl3e70tMdmrNpOqmzu'
 
