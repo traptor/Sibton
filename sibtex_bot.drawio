@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T11:59:57.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="loWJJsQ3yG3Hxhwl1-1a" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T10:07:12.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-gjNfYa22hYUMugF_SnG" version="20.7.4" type="github">
   <diagram name="Страница 1" id="LgsbMWBESHbUYroMua2p">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,8 +127,19 @@
         <mxCell id="fDtwPjwsuHDe_1HMCoDv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBorderColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="fDtwPjwsuHDe_1HMCoDv-41" target="fDtwPjwsuHDe_1HMCoDv-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fDtwPjwsuHDe_1HMCoDv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBorderColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fDtwPjwsuHDe_1HMCoDv-41" target="fDtwPjwsuHDe_1HMCoDv-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="257" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fDtwPjwsuHDe_1HMCoDv-41" value="cmd_wallet" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="187" y="210" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fDtwPjwsuHDe_1HMCoDv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBorderColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="fDtwPjwsuHDe_1HMCoDv-47" target="fDtwPjwsuHDe_1HMCoDv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fDtwPjwsuHDe_1HMCoDv-47" value="cmd_balance" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="187" y="290" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
