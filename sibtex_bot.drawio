@@ -1,14 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T05:38:58.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GeZ5PMyKDhCbZQFYSP9U" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T05:44:31.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pIDL-93XzI-9m6YQ4j-G" version="20.8.23" type="github">
   <diagram name="Страница 1" id="LgsbMWBESHbUYroMua2p">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-14" target="U3iO_99mf5j0hhA0DkvL-9">
+        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="XWbSGm8vZ0wcaiQFBCUl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-14" target="U3iO_99mf5j0hhA0DkvL-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="399" y="592" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="500" y="795" />
+              <mxPoint x="391" y="795" />
+              <mxPoint x="391" y="543" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -202,18 +206,20 @@
         <mxCell id="fDtwPjwsuHDe_1HMCoDv-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBorderColor=default;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="fDtwPjwsuHDe_1HMCoDv-47" target="fDtwPjwsuHDe_1HMCoDv-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q06oOHf_kdEBdOQaN_h--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#009900;" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="gmlreIujfG3aNCb5eHl9-1" edge="1">
+        <mxCell id="q06oOHf_kdEBdOQaN_h--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#009900;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="gmlreIujfG3aNCb5eHl9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="630" />
-              <mxPoint x="624" y="630" />
+              <mxPoint x="539" y="678" />
+              <mxPoint x="539" y="645" />
+              <mxPoint x="624" y="645" />
               <mxPoint x="624" y="435" />
             </Array>
+            <mxPoint x="559" y="664" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lwWt_sdLzpbbO9xVL9Pf-1" value="telegram_db.&lt;br&gt;add_link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=#009900;fontColor=#009900;" parent="q06oOHf_kdEBdOQaN_h--28" vertex="1" connectable="0">
           <mxGeometry x="-0.3122" y="1" relative="1" as="geometry">
-            <mxPoint x="-33" y="1" as="offset" />
+            <mxPoint x="-37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U3iO_99mf5j0hhA0DkvL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="1" source="q06oOHf_kdEBdOQaN_h--9" target="q06oOHf_kdEBdOQaN_h--22" edge="1">
@@ -358,39 +364,35 @@
         </mxCell>
         <mxCell id="XWbSGm8vZ0wcaiQFBCUl-26" value="tonapi_requests.&lt;br&gt;referal_transaction" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBorderColor=default;" vertex="1" connectable="0" parent="U3iO_99mf5j0hhA0DkvL-18">
           <mxGeometry x="0.0508" relative="1" as="geometry">
-            <mxPoint y="-14" as="offset" />
+            <mxPoint y="-82" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U3iO_99mf5j0hhA0DkvL-9" value="check transaction" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="410" y="528" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="XWbSGm8vZ0wcaiQFBCUl-3">
+        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="XWbSGm8vZ0wcaiQFBCUl-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="623" y="679" />
-              <mxPoint x="623" y="685" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-39" value="telegram_db.&lt;br&gt;set_pay" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBorderColor=default;" vertex="1" connectable="0" parent="XWbSGm8vZ0wcaiQFBCUl-36">
-          <mxGeometry x="-0.3863" y="-3" relative="1" as="geometry">
-            <mxPoint x="12" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="XWbSGm8vZ0wcaiQFBCUl-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="470" y="740" />
+              <mxPoint x="539" y="693" />
+              <mxPoint x="539" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XWbSGm8vZ0wcaiQFBCUl-38" value="telegram_db.&lt;br&gt;set_referal_pay" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBorderColor=default;" vertex="1" connectable="0" parent="XWbSGm8vZ0wcaiQFBCUl-37">
           <mxGeometry x="-0.1405" y="-1" relative="1" as="geometry">
-            <mxPoint x="65" y="-1" as="offset" />
+            <mxPoint x="32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XWbSGm8vZ0wcaiQFBCUl-21" target="XWbSGm8vZ0wcaiQFBCUl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XWbSGm8vZ0wcaiQFBCUl-42" value="telegram_db.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;set_pay" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBorderColor=default;" vertex="1" connectable="0" parent="XWbSGm8vZ0wcaiQFBCUl-41">
+          <mxGeometry x="-0.2938" y="-1" relative="1" as="geometry">
+            <mxPoint x="12" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XWbSGm8vZ0wcaiQFBCUl-21" value="check transaction" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="410.25" y="664" width="120" height="30" as="geometry" />
+          <mxGeometry x="410.25" y="670" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XWbSGm8vZ0wcaiQFBCUl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="U3iO_99mf5j0hhA0DkvL-13" target="U3iO_99mf5j0hhA0DkvL-2">
           <mxGeometry relative="1" as="geometry" />
